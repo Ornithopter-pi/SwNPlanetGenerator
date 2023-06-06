@@ -1,0 +1,30 @@
+{
+  "name": "tm-learning-01",
+  "version": "1.0.0",
+  "description": "Intro to typescript/Suffering",
+  "main": "main.js",
+  "scripts": {
+    "start": "clear && tsc && node ./build/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Programming-Class-01/TM-learning-01.git"
+  },
+  "author": "Tyler \"Ornithopter\" Moore",
+  "license": "LGPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Programming-Class-01/TM-learning-01/issues"
+  },
+  "homepage": "https://github.com/Programming-Class-01/TM-learning-01#readme",
+  "devDependencies": {
+    "@types/node": "^18.14.6",
+    "@typescript-eslint/eslint-plugin": "^5.54.0",
+    "@typescript-eslint/parser": "^5.54.0",
+    "eslint": "^8.35.0",
+    "typescript": "^4.9.5"
+  },
+  "dependencies": {
+    "ts-results": "^3.3.0"
+  }
+}
